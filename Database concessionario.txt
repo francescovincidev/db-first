@@ -1,0 +1,14 @@
+Database concessionario:
+ID_auto:  - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+Immatricolazione: VARCHAR(7) - UNIQUE - NOT NULL
+Marca: VARCHAR(15)
+Anno: YEAR
+Prezzo: DECIMAL(8,2)
+Condizioni: VARCHAR(150)
+Disponibilità: TINYINT - DEFAULT(1)
+Chilometraggio: MEDIUMINT
+Colore: VARCHAR(15)
+Tipo di carburante: VARCHAR(10)
+Cilindrata: SMALLINT
+Proprietario precedente: VARCHAR(15)
+Note: TEXT
